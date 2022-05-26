@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  width: 250px;
+  height: 300px;
+  outline: 3px solid black;
+  align-items: center;
+  flex-direction: column;
+}
+
+.display {
+  border: 1px solid rgb(118, 92, 92);
+  width: 150px;
+  height: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#top-line,
+#first-line,
+#second-line,
+#third-line,
+#bottom-line {
+  width: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+button {
+  flex: 1;
+}
+
+.btn-0 {
+  flex: 3;
+}
